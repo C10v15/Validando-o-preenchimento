@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 10px;
+    background-color: rgb(182, 145, 145);
+
+}
+.input-text{
+    border: solid 4px white;
+   padding: 10px;
+   border-radius: 5px;
+}
+.campo-preenchido{
+border-color: green;
+}
+
+.square{
+    height: 200px;
+    width: 300px;
+    border: solid 2px rgb(190, 172, 172);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+    background-color: rgb(132, 153, 148);
+}
